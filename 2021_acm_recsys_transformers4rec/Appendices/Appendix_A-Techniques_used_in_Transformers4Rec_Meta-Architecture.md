@@ -2,7 +2,7 @@
 
 ## Soft one-hot encoding
 
-The soft one-hot encoding method was originally proposed to encode the duration of an event [1], but we propose its usage to encode all continuous features. It represents a scalar as a weighted sum over all embeddings for that feature. More formally, the scalar feature 𝑛 is projected onto a vector space as in 𝑝<sup>𝑛</sup>=𝑛𝑊<sub>𝑛</sub>+𝑏<sub>��</sub>, where 𝑊<sub>𝑛</sub> ∈ R<sup>1×𝑃</sup> is the weight matrix, 𝑏<sub>𝑛</sub> ∈ R<sup>𝑃</sup> is the bias vector, and 𝑃 is the number of desired embeddings for the feature 𝑛 embedding table. Then, a softmax function is applied to the projection vector 𝑝<sup>𝑛</sup>, as 𝑠<sup>𝑛</sup>=softmax(𝑝<sup>𝑛</sup>). Finally, the probability distribution obtained from the softmax is used to do a weighted sum over an embedding space, 𝑔<sub>𝑛</sub>=𝑠<sup>𝑛</sup>𝐸<sup>𝑛</sup>, where ��<sup>𝑛</sup> ∈ R<sup>𝑃×𝐷</sup> is the embedding matrix for feature 𝑛, and 𝐷 is its embedding size.
+The soft one-hot encoding method was originally proposed to encode the duration of an event [1], but we propose its usage to encode all continuous features. It represents a scalar as a weighted sum over all embeddings for that feature. More formally, the scalar feature 𝑛 is projected onto a vector space as in 𝑝<sup>𝑛</sup>=𝑛𝑊<sub>𝑛</sub>+𝑏<sub>𝑛</sub>, where 𝑊<sub>𝑛</sub> ∈ R<sup>1×𝑃</sup> is the weight matrix, 𝑏<sub>𝑛</sub> ∈ R<sup>𝑃</sup> is the bias vector, and 𝑃 is the number of desired embeddings for the feature 𝑛 embedding table. Then, a softmax function is applied to the projection vector 𝑝<sup>𝑛</sup>, as 𝑠<sup>𝑛</sup>=softmax(𝑝<sup>𝑛</sup>). Finally, the probability distribution obtained from the softmax is used to do a weighted sum over an embedding space, 𝑔<sub>𝑛</sub>=𝑠<sup>𝑛</sup>𝐸<sup>𝑛</sup>, where 𝐸<sup>𝑛</sup> ∈ R<sup>𝑃×𝐷</sup> is the embedding matrix for feature 𝑛, and 𝐷 is its embedding size.
 
 
 ## Tying embeddings
@@ -15,5 +15,4 @@ A reduction in the number of parameters isn’t the only benefit to weight tying
 [1] Li, Yang, Nan Du, and Samy Bengio. "Time-dependent representation for neural event sequence prediction." arXiv preprint arXiv:1708.00065 (2017).  
 [2] Inan, Hakan, Khashayar Khosravi, and Richard Socher. "Tying word vectors and word classifiers: A loss framework for language modeling." arXiv preprint arXiv:1611.01462 (2016).  
 [3] Press, Ofir, and Lior Wolf. "Using the output embedding to improve language models." arXiv preprint arXiv:1608.05859 (2016).  
-[4] Zhang, Jian, Jiyan Yang, and Hector Yuen. "Training with low-precision embedding tables." Systems for Machine Learning Workshop at NeurIPS. Vol. 2018. 2018.  
-
+[4] Zhang, Jian, Jiyan Yang, and Hector Yuen. "Training with low-precision embedding tables." Systems for Machine Learning Workshop at NeurIPS. Vol. 2018. 2018.

@@ -1,6 +1,5 @@
-## Online Appendices of the Paper
-
 # Transformers4Rec: Bridging the Gap between NLP and Sequential / Session-Based Recommendation
+## Online Appendices of the Paper
 
 [**Paper PDF**](recsys21_transformers4rec_paper.pdf)
 

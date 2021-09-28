@@ -1,8 +1,8 @@
-# INSTRUCTIONS
+# Experiments Reproducibility Instructions
 
 ## Steps to run the paper experiments
-1) Download the preprocessed datasets [here](https://drive.google.com/drive/folders/1fxZozQuwd4fieoD0lmcD3mQ2Siu62ilD?usp=sharing)
-2) Copy the datasets folder to a local path and set an environment variable with that path, for example:
+1) Download the preprocessed datasets from this [Google Drive](https://drive.google.com/drive/folders/1fxZozQuwd4fieoD0lmcD3mQ2Siu62ilD?usp=sharing)
+2) Copy the datasets folder to a local path and set the `DATA_ROOT_PATH` environment variable to that path, for example:
 
 ```bash
 DATA_ROOT_PATH=~/transformers4rec_paper_preproc_datasets_public
@@ -10,9 +10,9 @@ DATA_ROOT_PATH=~/transformers4rec_paper_preproc_datasets_public
 
 3) Go to the project root path: `cd Transformers4Rec/`
 4) Create a `conda` environment and install the library dependencies, according to the instructions [here](https://github.com/NVIDIA-Merlin/Transformers4Rec/tree/recsys2021/hf4rec)
-4) Run the command of one of the following experiment groups (dataset, algorithm)
+4) Run the command of one of the following experiment groups (dataset, algorithm) to reproduce paper results. P.s. The reported numbers in the paper are the average of the metrics of 5 runs with different random seeds (`--seed`).
 
-P.s. All neural-based models were trained for the paper experiments using a single GV100 GPU with 32 GB RAM, except the Session k-NN models (V-SkNN, STAN and VSTAN) which use only CPUs.
+P.s. All neural-based models were trained for the paper experiments using a single GV100 GPU with 32 GB RAM, except the baseline Session k-NN models (V-SkNN, STAN and VSTAN) which use only CPUs.
 
 # REES46 ECOMMERCE DATASET
 

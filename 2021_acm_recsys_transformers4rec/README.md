@@ -1,9 +1,10 @@
 # Transformers4Rec: Bridging the Gap between NLP and Sequential / Session-Based Recommendation
 # Online Appendices of the Paper
 
-## Paper resources
+## Resources
 - [Published paper](https://dl.acm.org/doi/10.1145/3460231.3474255) at *ACM Digital Library*, with the paper **PDF** accompanied by recordings of the paper presentation and a demo
 - [Blog post](https://medium.com/nvidia-merlin/transformers4rec-4523cc7d8fa8) with a gentle introduction to the Transformers4Rec library
+- [Transformers4Rec GitHub repository](https://github.com/NVIDIA-Merlin/Transformers4Rec)
 
 
 ## Abstract 

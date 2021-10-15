@@ -20,11 +20,12 @@ The command lines to run each experiment group with the best hyperparameters usi
 DATA_ROOT_PATH=~/transformers4rec_paper_preproc_datasets_public
 ```
 
-3) Go to the project root path: `cd Transformers4Rec/`
-4) Create a `conda` environment and install the library dependencies, according to the instructions [here](https://github.com/NVIDIA-Merlin/Transformers4Rec/tree/recsys2021/hf4rec)
-4) Run the command of one of the following experiment groups (dataset, algorithm) to reproduce paper results. P.s. The reported numbers in the paper are the average of the metrics of 5 runs with different random seeds (`--seed`).
-5) When you run the commands, it will be generated within `--output_dir` CSV files with the metrics for each evaluation time window and also the Average Over Time (AOT) metrics reported in the paper.  
-6) You can chech the metrics plots with Tensorboard (logs saved in the output dir) and with [Weights & Biases](http://wandb.ai/) service (with a free account). For that you need to install wandb (`pip install wandb`) and run `wandb login` to provide your authentication key. The run stats and plots will be saved to the `huggingface` project on W&B service by default.
+3) Git clone the [Transformers4Rec](https://github.com/NVIDIA-Merlin/Transformers4Rec) repo checkout to the code version at the tag [recsys2021](https://github.com/NVIDIA-Merlin/Transformers4Rec/tree/recsys2021): `git recsys2021`
+4) Go to the project root path: `cd Transformers4Rec/`
+5) Create a `conda` environment and install the library dependencies, according to the instructions [here](https://github.com/NVIDIA-Merlin/Transformers4Rec/tree/recsys2021/hf4rec)
+6) Run the command of one of the following experiment groups (dataset, algorithm) to reproduce paper results. P.s. The reported numbers in the paper are the average of the metrics of 5 runs with different random seeds (`--seed`).
+7) When you run the commands, it will be generated within `--output_dir` CSV files with the metrics for each evaluation time window and also the Average Over Time (AOT) metrics reported in the paper.  
+8) You can chech the metrics plots with Tensorboard (logs saved in the output dir) and with [Weights & Biases](http://wandb.ai/) service (with a free account). For that you need to install wandb (`pip install wandb`) and run `wandb login` to provide your authentication key. The run stats and plots will be saved to the `huggingface` project on W&B service by default.
 
 ## Hardware environment
 All neural-based models were trained for the paper experiments using a single GV100 GPU with 32 GB RAM, except the baseline Session k-NN models (V-SkNN, STAN and VSTAN) which use only CPUs.

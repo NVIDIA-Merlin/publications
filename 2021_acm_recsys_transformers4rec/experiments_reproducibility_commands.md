@@ -1,7 +1,7 @@
 # Experiments reproducibility
 The experiments for the Transformers4Rec paper were performed in a former version of the Transformers4Rec library tagged as [recsys2021](https://github.com/NVIDIA-Merlin/Transformers4Rec/tree/recsys2021), which can be used for reproducibility. This document provides instruction for reproducing the experiments with that original (pre-release) codebase we used for the Transformers4Rec paper. 
 
-**IMPORTANT**: For researchers and practioners aiming to perform experiments similar to the ones presented in our paper (e.g. incremental training and evaluation of session-based recommendation with Transformers), we strongly encourage the usage of the [latest version](https://github.com/NVIDIA-Merlin/Transformers4Rec/tree/main/examples/t4rec_paper_experiments) of the experiment scripts which were updated to use the released PyTorch API, because it was completely refactored, is more modularized and documented than the original scripts, and is supported by the NVIDIA Merlin team.
+**IMPORTANT**: For researchers and practioners aiming to perform experiments similar to the ones presented in our paper (e.g. incremental training and evaluation of session-based recommendation with Transformers), we strongly encourage the usage of the [latest version](https://github.com/NVIDIA-Merlin/Transformers4Rec/tree/main/examples/t4rec_paper_experiments) of the experiment scripts which were updated to use the released PyTorch API, because it was completely refactored, is more modularized and better documented than the original scripts, and is supported by the NVIDIA Merlin team.
 
 ## Pre-processing
 We provide scripts for preprocessing the datasets [here](https://github.com/NVIDIA-Merlin/Transformers4Rec/tree/recsys2021/datasets), i.e., for creating features and grouping interactions features by sessions. But for your convenience we also provide the [pre-processed version of the datasets](https://drive.google.com/drive/folders/1fxZozQuwd4fieoD0lmcD3mQ2Siu62ilD?usp=sharing) for download, so that you jump directly into running experiments with Transformers4Rec. 
@@ -20,15 +20,15 @@ The command lines to run each experiment group with the best hyperparameters usi
 DATA_ROOT_PATH=~/transformers4rec_paper_preproc_datasets_public
 ```
 
-3) Git clone the [Transformers4Rec](https://github.com/NVIDIA-Merlin/Transformers4Rec) repo checkout to the code version at the tag [recsys2021](https://github.com/NVIDIA-Merlin/Transformers4Rec/tree/recsys2021): `git recsys2021`
-4) Go to the project root path: `cd Transformers4Rec/`
-5) Create a `conda` environment and install the library dependencies, according to the instructions [here](https://github.com/NVIDIA-Merlin/Transformers4Rec/tree/recsys2021/hf4rec)
+3) Git clone the [Transformers4Rec](https://github.com/NVIDIA-Merlin/Transformers4Rec) repo checkout to the code version at the tag [recsys2021](https://github.com/NVIDIA-Merlin/Transformers4Rec/tree/recsys2021): `git checkout recsys2021`
+4) Create a `conda` environment and install the library dependencies, according to the instructions [here](https://github.com/NVIDIA-Merlin/Transformers4Rec/tree/recsys2021/hf4rec)
+5) Go to the project root path: `cd Transformers4Rec/` and run `pip install -r requirements.txt`
 6) Run the command of one of the following experiment groups (dataset, algorithm) to reproduce paper results. P.s. The reported numbers in the paper are the average of the metrics of 5 runs with different random seeds (`--seed`).
-7) When you run the commands, it will be generated within `--output_dir` CSV files with the metrics for each evaluation time window and also the Average Over Time (AOT) metrics reported in the paper.  
-8) You can chech the metrics plots with Tensorboard (logs saved in the output dir) and with [Weights & Biases](http://wandb.ai/) service (with a free account). For that you need to install wandb (`pip install wandb`) and run `wandb login` to provide your authentication key. The run stats and plots will be saved to the `huggingface` project on W&B service by default.
+7) When you run the commands, CSV files with the metrics for each evaluation time window and also the Average Over Time (AOT) metrics reported in the paper will be generated within `--output_dir`
+8) You can check the metrics plots with Tensorboard (logs saved in the output dir) and with [Weights & Biases](http://wandb.ai/) service (with a free account). For that you need to install wandb (`pip install wandb`) and run `wandb login` to provide your authentication key. The run stats and plots will be saved to the `huggingface` project on W&B service by default.
 
 ## Hardware environment
-All neural-based models were trained for the paper experiments using a single GV100 GPU with 32 GB RAM, except the baseline Session k-NN models (V-SkNN, STAN and VSTAN) which use only CPUs.
+All neural-based models trained on a single GV100 GPU with 32 GB RAM, except the baseline Session k-NN models (V-SkNN, STAN and VSTAN) trained only on CPUs.
 
 # REES46 ECOMMERCE DATASET
 

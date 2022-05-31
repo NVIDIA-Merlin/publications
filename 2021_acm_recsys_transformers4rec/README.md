@@ -2,7 +2,7 @@
 # Online Appendices of the Paper
 
 ## Resources
-- [Published paper](https://dl.acm.org/doi/10.1145/3460231.3474255) at *ACM Digital Library*, with the paper **PDF** accompanied by recordings of the paper presentation and a demo
+- [Published paper](https://dl.acm.org/doi/10.1145/3460231.3474255) at *ACM Digital Library*, with the paper accompanied by recordings of the paper presentation and a demo. We also host a local copy of the paper [**PDF**](https://github.com/NVIDIA-Merlin/publications/blob/main/2021_acm_recsys_transformers4rec/recsys21_transformers4rec_paper.pdf).
 - [Blog post](https://medium.com/nvidia-merlin/transformers4rec-4523cc7d8fa8) with a gentle introduction to the Transformers4Rec library
 - [Transformers4Rec GitHub repository](https://github.com/NVIDIA-Merlin/Transformers4Rec)
 

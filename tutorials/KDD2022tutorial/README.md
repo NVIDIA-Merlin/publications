@@ -41,12 +41,12 @@ The tutorial is outlined as follow:
 
 **Ronay Ak** is a Sr. Data Scientist at NVIDIA working on DL-based recommender systems. Before joining NVIDIA, she worked as a Research Associate at the National Institute of Standards and Technology in USA. She received her Ph.D. in Energy and Power Systems (Engineering) discipline from CentraleSupelec in Paris, FR. Ronay was part of the winning team of the WSDM2021 Booking.com challenge [12] and the SIGIR eCommerceWorkshop Data Challenge 2021 by Coveo [13].
 
-**Marc Romeyn** is a Sr. Machine Learning Engineer at NVIDIA focussing on developing tools for recommender systems. He is a core contributor to Merlin libraries. Prior to joining NVIDIA, he has been at Spotify building ML infrastructure for personalization. At Spotify he was one of the core contributors to the managed ML-ops platform which is used across the company. 
-
 
 ## Contributors
 
 **Gabriel de Souza Pereira Moreira** is a Sr. Applied Research Scientist at NVIDIA Merlin team. He had his PhD degree from Instituto Tecnológico de Aeronáutica (ITA), Brazil with a focus on Deep Learning for RecSys and Session-based recommendation. Before joining NVIDIA, he was lead Data Scientist at CI&T for 5 years. He was part of the teams that won the ACM RecSys Challenge 2020, the WSDM WebTour Workshop Challenge 2021 by Booking.com [12] and the SIGIR eCommerceWorkshop Data Challenge 2021 by Coveo [13].
+
+**Marc Romeyn** is a Sr. Machine Learning Engineer at NVIDIA focussing on developing tools for recommender systems. He is a core contributor to Merlin libraries. Prior to joining NVIDIA, he has been at Spotify building ML infrastructure for personalization. At Spotify he was one of the core contributors to the managed ML-ops platform which is used across the company. 
 
 **Benedikt Schifferer** is a DL Engineer at NVIDIA. Before joining NVIDIA, he worked as a data scientist, developed the in-house recommendation engine at Home24. Afterwards, he worked as a data science consultant at McKinsey & Company. He got his MSc degree from Columbia University. Benedikt was part of the winning team of the ACM RecSys2020 [10], ACM RecSys2021 [11], and WSDM2021 Booking.com challenges [12].
 

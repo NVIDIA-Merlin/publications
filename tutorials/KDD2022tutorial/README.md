@@ -103,11 +103,7 @@ Computing Machinery, New York, NY, USA, 269–277. https://doi.org/10.1145/
 3298689.3346996
  - [10] [Benedikt Schifferer et al. 2020. GPU Accelerated Feature Engineering and Training for Recommender Systems. In Proceedings of the Recommender Systems Challenge 2020 (Virtual Event, Brazil) (RecSysChallenge ’20). Association for Computing Machinery, New York, NY, USA, 16–23. https://doi.org/10.1145/3415959.
 3415996
-- [11] Chris Deotte et al . 2021. GPU Accelerated Boosted Trees and Deep Neural Net-
-works for Better Recommender Systems. In RecSysChallenge ’21: Proceedings of
-the Recommender Systems Challenge 2021 (Amsterdam, Netherlands) (RecSysChal-
-lenge 2021). Association for Computing Machinery, New York, NY, USA, 7–14.
-https://doi.org/10.1145/3487572.3487605
+- [11] Chris Deotte et al . 2021. GPU Accelerated Boosted Trees and Deep Neural Networks for Better Recommender Systems. In RecSysChallenge ’21: Proceedings of the Recommender Systems Challenge 2021 (Amsterdam, Netherlands) (RecSysChallenge 2021). Association for Computing Machinery, New York, NY, USA, 7–14. https://doi.org/10.1145/3487572.3487605
 - [12] Benedikt Schifferer et al. 2021. Using Deep Learning to Win the Booking.com
 WSDMWebTour21 Challenge on Sequential Recommendations (to be published).
 https://www.bookingchallenge.com/. In Proceedings of the ACM WSDM Workshop

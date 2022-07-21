@@ -88,8 +88,7 @@ York, NY, USA, 191–198. https://doi.org/10.1145/2959100.2959190
 - [6] Jiaqi Ma et al . 2020. Off-Policy Learning in Two-Stage Recommender Systems.
 Association for Computing Machinery, New York, NY, USA, 463–473. https:
 //doi.org/10.1145/3366423.3380130
-- [7] Naumov Maxim et al . 2019. Deep Learning Recommendation Model for Per-
-sonalization and Recommendation Systems. Retrieved March 23, 2022 from
+- [7] Naumov Maxim et al . 2019. Deep Learning Recommendation Model for Personalization and Recommendation Systems. Retrieved March 23, 2022 from
 https://arxiv.org/abs/1906.00091
 - [8] Ruoxi Wang et al . 2021. DCN V2: Improved Deep & Cross Network and Practical
 Lessons for Web-Scale Learning to Rank Systems. In Proceedings of the Web

@@ -16,7 +16,7 @@ In this hands-on tutorial, participants will start with data preparation using [
 
 ## Tutorial Outline
 
-The tutorial will cover how to iterate over performing GPU accelerated feature engineering and preprocessing using Merlin [NVTabular](https://github.com/NVIDIA-Merlin/NVTabular), and building and training  a two-stage recommender system with [Merlin Models](https://github.com/NVIDIA-Merlin/models). Two-stage recommender system will consist of a candidate retrieval stage with MF [3] and Two-Tower models [9], and a ranking stage including deep learning-based ranking models [7], [8]. We will use a publicly available dataset to teach these concepts on a small scale, but participants can apply the same code to large scale data tasks. Participants will gain hands-on experience in this tutorial, and take this knowledge back to their organizations to build custom accelerated recommender systems models.
+The tutorial will cover how to iterate over performing GPU accelerated feature engineering and preprocessing using Merlin [NVTabular](https://github.com/NVIDIA-Merlin/NVTabular), and building and training  a two-stage recommender system with [Merlin Models](https://github.com/NVIDIA-Merlin/models). Two-stage recommender system will consist of a candidate retrieval stage with MF [3] and Two-Tower models [9], and a ranking stage including deep-learning based ranking models [7], [8]. We will use a publicly available dataset to teach these concepts on a small scale, but participants can apply the same code to large scale data tasks. Participants will gain hands-on experience in this tutorial, and take this knowledge back to their organizations to build custom accelerated recommender systems models.
 
 The tutorial is outlined as follow:
 - **Presentation**

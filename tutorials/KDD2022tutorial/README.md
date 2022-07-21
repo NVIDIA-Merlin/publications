@@ -101,10 +101,7 @@ Corpus Item Recommendations. In Proceedings of the 13th ACM Conference on
 Recommender Systems (Copenhagen, Denmark) (RecSys ’19). Association for
 Computing Machinery, New York, NY, USA, 269–277. https://doi.org/10.1145/
 3298689.3346996
- - [10] [Benedikt Schifferer et al. 2020. GPU Accelerated Feature Engineering and Train-
-ing for Recommender Systems. In Proceedings of the Recommender Systems Chal-
-lenge 2020 (Virtual Event, Brazil) (RecSysChallenge ’20). Association for Com-
-puting Machinery, New York, NY, USA, 16–23. https://doi.org/10.1145/3415959.
+ - [10] [Benedikt Schifferer et al. 2020. GPU Accelerated Feature Engineering and Training for Recommender Systems. In Proceedings of the Recommender Systems Challenge 2020 (Virtual Event, Brazil) (RecSysChallenge ’20). Association for Computing Machinery, New York, NY, USA, 16–23. https://doi.org/10.1145/3415959.
 3415996
 - [11] Chris Deotte et al . 2021. GPU Accelerated Boosted Trees and Deep Neural Net-
 works for Better Recommender Systems. In RecSysChallenge ’21: Proceedings of

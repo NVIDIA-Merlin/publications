@@ -1,6 +1,6 @@
 # ACM RecSys'22 Hands-on Tutorial: Training and Deploying Multi-Stage Recommender Systems
 
-**Date**: Sept, 2022 (TBD)
+**Date**: Sept 18, 2022
 
 **Place**: Seattle, USA
 

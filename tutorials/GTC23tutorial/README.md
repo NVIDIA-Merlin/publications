@@ -55,10 +55,9 @@ Then in the terminal of the docker instance run the following commands to be abl
 
 ```
 cd /models && git fetch origin && git checkout origin/tf/transformer-api && pip install .
-cd /core && git checkout main && git pull origin main && pip install .
-cd /nvtabular && git checkout main && git pull origin main && pip install .
-cd /systems && git checkout main && git pull origin main && pip install .
-cd /dataloader && git checkout main && git pull origin main && pip install .
+cd /core && git fetch origin && git checkout origin/release-23.02 && pip install .
+cd /nvtabular && git fetch origin && git checkout origin/release-23.02 && pip install .
+cd /dataloader && git fetch origin && git checkout origin/release-23.02 && pip install .
 pip install matplotlib
 
 ```

@@ -4,7 +4,7 @@ The experiments for the Transformers4Rec paper were performed in a former versio
 **IMPORTANT**: For researchers and practioners aiming to perform experiments similar to the ones presented in our paper (e.g. incremental training and evaluation of session-based recommendation with Transformers), we strongly encourage the usage of the [latest version](https://github.com/NVIDIA-Merlin/Transformers4Rec/tree/main/examples/t4rec_paper_experiments) of the experiment scripts which were updated to use the released PyTorch API, because it was completely refactored, is more modularized and better documented than the original scripts, and is supported by the NVIDIA Merlin team.
 
 ## Pre-processing
-We provide scripts for preprocessing the datasets [here](https://github.com/NVIDIA-Merlin/Transformers4Rec/tree/recsys2021/datasets), i.e., for creating features and grouping interactions features by sessions. But for your convenience we also provide the [pre-processed version of the datasets](https://drive.google.com/drive/folders/1fxZozQuwd4fieoD0lmcD3mQ2Siu62ilD?usp=sharing) for download, so that you jump directly into running experiments with Transformers4Rec. 
+We provide scripts for preprocessing the datasets [here](https://github.com/NVIDIA-Merlin/Transformers4Rec/tree/recsys2021/datasets), i.e., for creating features and grouping interactions features by sessions. But for your convenience we also provide the [pre-processed version of the datasets](preproc_datasets/) for download, so that you jump directly into running experiments with Transformers4Rec. 
 
 ## Training and evaluation
 In our paper we have performed hyperparameter tuning for each experiment group (dataset and algorithm pair), whose search space and best hyperparameters can be found in the paper [Online Appendix C](../Appendices/Appendix_C-Hyperparameters.md). 
@@ -13,7 +13,7 @@ The command lines to run each experiment group with the best hyperparameters usi
 
 
 ## Steps to run the paper experiments
-1) Download the preprocessed datasets from this [Google Drive](https://drive.google.com/drive/folders/1fxZozQuwd4fieoD0lmcD3mQ2Siu62ilD?usp=sharing)
+1) Download the preprocessed datasets from [here](preproc_datasets/)
 2) Copy the datasets folder to a local path and set the `DATA_ROOT_PATH` environment variable to that path, for example:
 
 ```bash

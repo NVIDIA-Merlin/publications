@@ -12,16 +12,16 @@
 
 Feature engineering remains a crucial technique for improving the performance of models trained on tabular data. Unlike computer vision and natural language processing, where deep learning models automatically extract hierarchical features from raw data, the most accurate tabular models—such as gradient-boosted decision trees—still benefit significantly from manually crafted features. This is demonstrated in Team NVIDIA’s many 1st place data science competition victories [13] [3] [5] [14].
 
-This problem solving hands on tutorial will be presented in two parts. The first part will be dedicated to feature engineering. We will teach specific feature engineering techniques using the Amazon product review dataset [8] [9] which contains product reviews from May 1996 thru July 2014. Specifically, we will use the electronic category of this dataset containing 1,689,188 reviews. Using features generated in the first part, participants will learn how to train a gradient boosted decision trees (XGBoost) and support vector machines (SVM) model in the second part. NVIDIA cuDF and cuML libraries will be used to accelerate the experimentation pipeline allowing us to search for and engineer new features much faster and discover more accurate models quicker [12].
+This problem solving hands on tutorial will be presented in two parts. The first part will be dedicated to feature engineering. We will teach specific feature engineering techniques using the Amazon product review dataset [8] [9] which contains product reviews from May 1996 thru July 2014. Specifically, we will use the electronic category of this dataset containing 1,689,188 reviews. Using features generated in the first part, participants will learn how to train a gradient boosted decision trees (XGBoost) and support vector machines (SVM) model in the second part. NVIDIA cuDF and cuML libraries will be used to accelerate the experimentation pipeline on GPU allowing us to search for and engineer new features much faster and discover more accurate models quicker [12].
 
 We will cover four feature engineering techniques— normalization, binning, count encoding, and target encoding [7] —and demonstrate their impact on classification accuracy. Applying these methods, we will observe a significant boost in cross-validation AUC when predicting user preferences. By the end of the tutorial, participants will gain practical techniques they can immediately apply to their real-world use cases.
 
 ## Tutorial Outline
 
-This tutorial is designed as a problem-solving tutorial. We will start with a short overview of experimentation pipeline for tabular datasets and of feature engineering techniques for processing tabular datasets. We will discuss the importance of acceleration in creating data science pipelines. We will then introduce NVIDIA cuDF and cuML libraries [12] for accelerated end-to-end data science pipelines. Afterwards, we will teach the material as hands-on labs. The audience will be able to follow all hands-on sessions in their dedicated environment via jupyter notebooks and participate by running the code themselves and solving the exercises. The tutorial will be 180 min long and is designed as a combination of theoretical lectures and practical exercises for the participants.
+This tutorial is designed as a problem-solving tutorial. We will start with a short overview of experimentation pipeline for tabular datasets and of feature engineering techniques for processing tabular datasets. We will discuss the importance of acceleration in creating data science pipelines. We will then introduce NVIDIA cuDF and cuML libraries [12] for accelerated end-to-end data science pipelines on GPU. Afterwards, we will teach the material as hands-on labs. The audience will be able to follow all hands-on sessions in their dedicated environment via jupyter notebooks and participate by running the code themselves and solving the exercises. The tutorial will be 180 min long and is designed as a combination of theoretical lectures and practical exercises for the participants.
 
 The tutorial is outlined as follow:
-- **Presentation**
+- **Presentation (30 min)**
   - Section 1 - Experimentation Pipeline for Tabular datasets
       - Why Acceleration is important?
       - Overview of Feature types
@@ -29,7 +29,7 @@ The tutorial is outlined as follow:
       - Accelerated computing is critical for modern applications
       - Accelerating pandas with ZERO Code Change
       - Accelerating scikit-learn with ZERO Code Change
-- **Hands-on Labs:**
+- **Hands-on Labs (120 min):**
   - Part 1 - Best practices for data preprocessing and feature engineering
       - Learn and apply Target Encoding technique
       - Learn and apply Count Encoding technique
@@ -39,7 +39,7 @@ The tutorial is outlined as follow:
   - Part 2 - Train ML models on GPU
       - Train an XGBoost model on GPU
       - Train a SVC model on GPU
-- **Wrap up and Q&A**
+- **Wrap up and Q&A (20 min)**
 
 
 ## PREVIOUS VERSIONS OF TUTORIAL
@@ -69,7 +69,7 @@ To perform hands-on work in the proposed time, our hands-on training platform wi
 
 ## Target Audience
 
-The target audience for this hands-on tutorial is the data science, machine learning and/or AI community with a beginner to intermediate understanding of machine learning and deep learning model pipelines. Basic Python programming experience and knowledge of pandas and scikit-learn libraries is required
+The target audience for this hands-on tutorial is the data science, machine learning and/or AI community with a beginner to intermediate understanding of machine learning model pipelines. Basic Python programming experience and knowledge of pandas and scikit-learn libraries is required
 
 ## Prerequisites & Instructions
 
@@ -83,12 +83,10 @@ Check your bandwidth. 1 Mbps downstream is required and 5 Mbps is recommended. T
 ## Societal Impacts
 
 Feature engineering is a critical step in building accurate machine learning models, and its proper application can have significant societal impacts. This tutorial equips participants with the skills to enhance model performance on tabular data, which is widely used in domains such as healthcare, finance, and e-commerce. By improving predictive accuracy, these techniques can lead to better decision-making systems, such as more effective fraud detection, improved medical diagnostics, and enhanced user experiences in online platforms. 
-However, the use of feature engineering also presents challenges. Poorly designed features or biased data transformations can inadvertently reinforce societal biases, leading to unfair model predictions. For example, encoding techniques such as target encoding could propagate biases present in historical data, affecting marginalized groups. Therefore, practitioners must apply feature engineering with an awareness of ethical considerations, ensuring that models remain fair and transparent.
-
 
 ## Acknowledgements
 
-We would like to thank NVIDIA KGMON team and DLI team for their help and support in preparation of this tutorial
+We would like to thank NVIDIA KGMON team and Deep Learning Institute (DLI) team for their help and support in preparation of this tutorial
 
 
 ## References

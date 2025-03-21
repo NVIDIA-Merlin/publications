@@ -1,22 +1,21 @@
 # ACM KDD 2025 Hands-on Tutorial: Boost the Performance of Tabular Data Models with Powerful Feature Engineering
 
-**Date**: August 3–7, 2025
+**Conference Date**: August 3–7, 2025
 
 **Place**: Toronto, ON, USA
 
 **Tutorial Material**: The material will be made publicly available at the time of the our KDD'25 hands-on tutorial.
-
+**Tutorial Date**: TBD
 
 ## Abstract
 
-Feature engineering is a powerful technique to improve the performance of models trained from tabular data. Unlike computer vision and natural language where deep learning models create features for us, the most accurate tabular data models still utilize the process of human created new columns from existing columns [9] [2] [4]. Transforming features or groups of features into new representations help the model detect and utilize patterns to predict targets. These techniques have helped Team NVIDIA win 1st place in many prestigious international data science competitions [9] [2] [3]. 
-
-In this hands-on tutorial, we will teach specific feature engineering techniques using real world data. Together instructor and participants will train gradient boosted decision trees and support vector machines on real Amazon review data [6 ]. NVIDIA cuDF and cuML will be used to accelerate the experimentation pipline allowing us to find and improve model accuracy quicker [8]. We will learn four feature engineering techniques and observe their application improve model accuracy on a classification task. Using normalization, binning, count encoding, and target encoding we will observe a 25% or more improvement in cross validation AUC score when predicting the probability that a user likes a product [5].
+Feature engineering remains a crucial technique for improving the performance of models trained on tabular data. Unlike computer vision and natural language processing, where deep learning models automatically extract hierarchical features from raw data, the most accurate tabular models—such as gradient-boosted decision trees—still benefit significantly from manually crafted features. This is demonstrated in Team NVIDIA’s many 1st place data science competition victories [13] [3] [5] [14].
+This problem solving hands on tutorial will be presented in two parts. The first part will be dedicated to feature engineering. We will teach specific feature engineering techniques using the Amazon product review dataset [8] [9] which contains product reviews from May 1996 thru July 2014. Specifically, we will use the electronic category of this dataset containing 1,689,188 reviews. Using features generated in the first part, participants will learn how to train a gradient boosted decision trees (XGBoost) and support vector machines (SVM) model in the second part. NVIDIA cuDF and cuML libraries will be used to accelerate the experimentation pipeline allowing us to search for and engineer new features much faster and discover more accurate models quicker [12].
+We will cover four feature engineering techniques— normalization, binning, count encoding, and target encoding [7] —and demonstrate their impact on classification accuracy. Applying these methods, we will observe a significant boost in cross-validation AUC when predicting user preferences. By the end of the tutorial, participants will gain practical techniques they can immediately apply to their real-world use cases.
 
 ## Tutorial Outline
 
-The tutorial will start with a short overview experimentation pipeline for tabular datasets and of feature engineering techniques for processing tabular datasets. Instructors will introduce NVIDIA Cuda-X libraries (cuDF and cuML) for accelerated end-to-end data science pipelines. Afterwards, the instructors will teach the material as hands-on labs. The audience will be able to follow all hands-on sessions in their dedicated environment via jupyter notebooks and participate by running the code themself and solving the exercises.
-
+This tutorial is designed as a problem-solving tutorial. We will start with a short overview of experimentation pipeline for tabular datasets and of feature engineering techniques for processing tabular datasets. We will discuss the importance of acceleration in creating data science pipelines. We will then introduce NVIDIA cuDF and cuML libraries [12] for accelerated end-to-end data science pipelines. Afterwards, we will teach the material as hands-on labs. The audience will be able to follow all hands-on sessions in their dedicated environment via jupyter notebooks and participate by running the code themselves and solving the exercises. The tutorial will be 180 min long and is designed as a combination of theoretical lectures and practical exercises for the participants.
 
 The tutorial is outlined as follow:
 - **Presentation**
@@ -37,18 +36,23 @@ The tutorial is outlined as follow:
   - Part 2 - Train ML models on GPU
       - Train an XGBoost model on GPU
       - Train a SVC model on GPU
-
 - **Wrap up and Q&A**
 
-We have presented similar content as hands-on tutorial in three different events: ACM RecSys 2020 [7], GTC’23 Digital Spring [8] and GTC 2025 conferences [9]. Each tutorial was a big success, attracting a large audience of over 150 participants at each venue, and receiving a lot of positive feedback.
 
+## PREVIOUS VERSIONS OF TUTORIAL
+
+We have presented similar content as hands-on tutorial in three different events: ACM RecSys 2020 [ 2], GTC’23 Digital Spring [4] and GTC 2025 conferences [6]. Each tutorial was a big success, attracting a large audience of over 150 participants at each venue, and receiving a lot of positive feedback.
+
+- **(1) ACM RecSys 2020** - Online – After winning RecSys 2020 competition [ 13 ], we presented an online workshop demonstrating the various feature engineering techniques that our
+XGBoost models utilized to win. This workshop did not include instruction on how to train models and/or incorporate features.
+- **(2) GTC’23 Spring - Online** – For NVIDIA GTC’23 Digital Spring online, we adapted our previous RecSys2020 tutorial by shortening the feature engineering content and adding part 2 about training models and incorporating features.
+- **(3) GTC 2025** - In Person – For NVIDIA GTC’25, we presented an updated version of our GTC’23 tutorial. Now for KDD conference 2025, we propose adding more content to feature engineering and more content to model training.
 
 ## Tutors
 
 **Chris Deotte** is a Senior Data Scientist at NVIDIA, where he specializes in improving model performance. Chris earned his Ph.D. in Applied Mathematics with specialization in Computational Science. He has competed in 90 international data science competitions and won over 60 medals. Chris is a quadruple Kaggle Grandmaster [1].
 
-**Ronay Ak** is a Senior Data Scientist at NVIDIA working on Information Retrieval for RAG applications. Prior to her current role, she was focusing on deep learning-based recommender systems and was one of the engineers building the NVIDIA Merlin framework. She received her PhD in Energy & Power Systems Engineering discipline from CentraleSupelec in France. She was part of the NVIDIA AI team that won the WSDM WebTour Workshop Challenge 2021 by Booking.com [4] and SIGIR’21 Ecommerce data challenge hosted by Coveo [5]. She has authored 20+ technical publications published in internationally reputed conferences and journals, and delivered numerous hands-on tutorials for academic and industry audience as an NVIDIA DLI certified instructor.
-
+**Ronay Ak** is a Senior Data Scientist at NVIDIA working on Information Retrieval for RAG applications. Prior to her current role, she was focusing on deep learning-based recommender systems and was one of the engineers building the NVIDIA Merlin framework [11]. She received her PhD in Energy and Power Systems Engineering discipline from CentraleSupelec in France. Ronay was part of the winning team of the WSDM2021 Booking.com challenge [14] and the SIGIR eCommerceWorkshop Data Challenge 2021 by Coveo [10]. She has authored 20+ technical publications published in internationally reputed conferences and journals, and delivered numerous hands-on tutorials for academic and industry audience as an NVIDIA DLI certified instructor.
 
 ## Contributors
 
@@ -77,7 +81,6 @@ Check your bandwidth. 1 Mbps downstream is required and 5 Mbps is recommended. T
 
 Feature engineering is a critical step in building accurate machine learning models, and its proper application can have significant societal impacts. This tutorial equips participants with the skills to enhance model performance on tabular data, which is widely used in domains such as healthcare, finance, and e-commerce. By improving predictive accuracy, these techniques can lead to better decision-making systems, such as more effective fraud detection, improved medical diagnostics, and enhanced user experiences in online platforms. 
 However, the use of feature engineering also presents challenges. Poorly designed features or biased data transformations can inadvertently reinforce societal biases, leading to unfair model predictions. For example, encoding techniques such as target encoding could propagate biases present in historical data, affecting marginalized groups. Therefore, practitioners must apply feature engineering with an awareness of ethical considerations, ensuring that models remain fair and transparent.
-By fostering an understanding of both the technical and ethical aspects of feature engineering, this tutorial empowers participants to build models that are not only accurate but also socially responsible.
 
 
 ## Acknowledgements
@@ -87,12 +90,18 @@ We would like to thank NVIDIA KGMON team and DLI team for their help and support
 
 ## References
 
-- [1] Chris Deotte. 2025. Chris Deotte’s Kaggle Profile. https://www.kaggle.com/cdeotte Accessed: 2025-03-18.
-- [2] [Benedikt Schifferer et al. 2020. GPU Accelerated Feature Engineering and Training for Recommender Systems. In Proceedings of the Recommender Systems Challenge 2020 (Virtual Event, Brazil) (RecSysChallenge ’20). Association for Computing Machinery, New York, NY, USA, 16–23. https://doi.org/10.1145/3415959.3415996
-- [3] Chris Deotte et al . 2021. GPU Accelerated Boosted Trees and Deep Neural Networks for Better Recommender Systems. In RecSysChallenge ’21: Proceedings of the Recommender Systems Challenge 2021 (Amsterdam, Netherlands) (RecSysChallenge 2021). Association for Computing Machinery, New York, NY, USA, 7–14. https://doi.org/10.1145/3487572.3487605
-- [4] Benedikt Schifferer et al. 2021. Using Deep Learning to Win the Booking.com WSDMWebTour21 Challenge on Sequential Recommendations. https://www.bookingchallenge.com/. In Proceedings of the ACM WSDM Workshop on Web Tourism (WSDM WebTour’21).
-- [5] Gabriel de Souza P. Moreira et al. 2021. Transformers with multi-modal features and post-fusion context for e-commerce session-based recommendation. Retrieved June 7, 2022 from https://arxiv.org/abs/2107.05124
-- [6] [NVIDIA Deep Learning Institute](https://www.nvidia.com/en-us/training/)
-- [7] Chris Deotte and Ronay Ak. 2025. Best Practices in Feature Engineering for Tabular Data With GPU Acceleration. Retrieved March 18, 2025 from https://www.nvidia.com/gtc/session-catalog/?regcode=pa-srch-goog-
-157409-prsp&ncid=pa-srch-goog-157409-prsp&tab.catalogallsessionstab=
-16566177511100015Kus&search=ronay%20ak#/session/1731448128537001rimn
+[1] Chris Deotte. 2025. Chris Deotte’s Kaggle Profile. https://www.kaggle.com/cdeotte Accessed: 2025-03-18.
+[2] Chris Deotte et al. 2020. Feature Engineering for Recommender Systems. Retrieved March 18, 2025 from https://recsys.acm.org/recsys20/tutorials/
+[3] Chris Deotte et al . 2021. GPU Accelerated Boosted Trees and Deep Neural Networks for Better Recommender Systems. In RecSysChallenge ’21: Proceedings of the Recommender Systems Challenge 2021 (Amsterdam, Netherlands) (RecSysChallenge 2021). Association for Computing Machinery, New York, NY, USA, 7–14. https://doi.org/10.1145/3487572.3487605
+[4] Chris Deotte et al. 2023. Learn How to Create Features from Tabular Data and Accelerate your Data Science Pipeline. Retrieved March 18, 2025 from https://www.nvidia.com/en-us/on-demand/session/gtcspring23-dlit51195/
+[5] Chris Deotte et al . 2023. Winning Amazon KDD Cup’23. Retrieved March 18, 2025 from https://openreview.net/pdf?id=J3wj55kK5t
+[6] Chris Deotte and Ronay Ak. 2025. Best Practices in Feature Engineering for Tabular Data With GPU Acceleration. Retrieved March 21, 2025 from [link](https://www.nvidia.com/gtc/session-catalog/?regcode=no-ncid&ncid=no-ncid&tab.catalogallsessionstab=16566177511100015Kus&search=ronay%20ak#/session/1731448128537001rimn)
+[7] Jiwei Liu. 2021. Target Encoding with RAPIDS cuML: Do More with Your Categorical Data, [blog post](https://medium.com/rapids-ai/target-encoding-with-rapids-cuml-
+do-more-with-your-categorical-data-8c762c79e784), Accessed: 2025-03-18.
+[8] Julian McAuley et al . 2014. Amazon Review Dataset - Category Electronics. https://cseweb.ucsd.edu/~jmcauley/datasets/amazon/links.html, Accessed: 2025-03-18.
+[9] Julian McAuley, Christopher Targett, Qinfeng Shi, and Anton van den Hengel. 2015. Image-Based Recommendations on Styles and Substitutes. In Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval (Santiago, Chile). Association for Computing Machinery, New York, NY, USA, 43–52. https://doi.org/10.1145/2766462.2767755
+[10] Gabriel de Souza P. Moreira et al. 2021. Transformers with multi-modal features and post-fusion context for e-commerce session-based recommendation. https://arxiv.org/abs/2107.05124
+[11] NVIDIA. 2021. Merlin Framework. Retrieved June 7, 2022 from https://developer. nvidia.com/nvidia-merlin
+[12] RAPIDS Development Team. 2025. RAPIDS cuDF and cuML: GPU-Accelerated Data Science Libraries. https://rapids.ai/ Accessed: 2025-03-18.
+[13] Benedikt Schifferer et al. 2020. GPU Accelerated Feature Engineering and Training for Recommender Systems. In Proceedings of the Recommender Systems Challenge 2020 (Virtual Event, Brazil) (RecSysChallenge ’20). Association for Computing Machinery, New York, NY, USA, 16–23. https://doi.org/10.1145/3415959.
+[14] Benedikt Schifferer et al. 2021. Using Deep Learning to Win the Booking.com WSDMWebTour21 Challenge on Sequential Recommendations. https://www.bookingchallenge.com/. In Proceedings of the ACM WSDM Workshop on WebTourism (WSDM WebTour’21).

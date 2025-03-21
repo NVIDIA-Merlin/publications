@@ -4,13 +4,16 @@
 
 **Place**: Toronto, ON, USA
 
-**Tutorial Material**: The material will be made publicly available at the time of the our KDD'25 hands-on tutorial.
+**Tutorial Material**: The material will be made publicly available at the time of the our KDD'25 hands-on tutorial. <br>
+
 **Tutorial Date**: TBD
 
 ## Abstract
 
 Feature engineering remains a crucial technique for improving the performance of models trained on tabular data. Unlike computer vision and natural language processing, where deep learning models automatically extract hierarchical features from raw data, the most accurate tabular models—such as gradient-boosted decision trees—still benefit significantly from manually crafted features. This is demonstrated in Team NVIDIA’s many 1st place data science competition victories [13] [3] [5] [14].
+
 This problem solving hands on tutorial will be presented in two parts. The first part will be dedicated to feature engineering. We will teach specific feature engineering techniques using the Amazon product review dataset [8] [9] which contains product reviews from May 1996 thru July 2014. Specifically, we will use the electronic category of this dataset containing 1,689,188 reviews. Using features generated in the first part, participants will learn how to train a gradient boosted decision trees (XGBoost) and support vector machines (SVM) model in the second part. NVIDIA cuDF and cuML libraries will be used to accelerate the experimentation pipeline allowing us to search for and engineer new features much faster and discover more accurate models quicker [12].
+
 We will cover four feature engineering techniques— normalization, binning, count encoding, and target encoding [7] —and demonstrate their impact on classification accuracy. Applying these methods, we will observe a significant boost in cross-validation AUC when predicting user preferences. By the end of the tutorial, participants will gain practical techniques they can immediately apply to their real-world use cases.
 
 ## Tutorial Outline

@@ -90,18 +90,18 @@ We would like to thank NVIDIA KGMON team and DLI team for their help and support
 
 ## References
 
-[1] Chris Deotte. 2025. Chris Deotte’s Kaggle Profile. https://www.kaggle.com/cdeotte Accessed: 2025-03-18.
-[2] Chris Deotte et al. 2020. Feature Engineering for Recommender Systems. Retrieved March 18, 2025 from https://recsys.acm.org/recsys20/tutorials/
-[3] Chris Deotte et al . 2021. GPU Accelerated Boosted Trees and Deep Neural Networks for Better Recommender Systems. In RecSysChallenge ’21: Proceedings of the Recommender Systems Challenge 2021 (Amsterdam, Netherlands) (RecSysChallenge 2021). Association for Computing Machinery, New York, NY, USA, 7–14. https://doi.org/10.1145/3487572.3487605
-[4] Chris Deotte et al. 2023. Learn How to Create Features from Tabular Data and Accelerate your Data Science Pipeline. Retrieved March 18, 2025 from https://www.nvidia.com/en-us/on-demand/session/gtcspring23-dlit51195/
-[5] Chris Deotte et al . 2023. Winning Amazon KDD Cup’23. Retrieved March 18, 2025 from https://openreview.net/pdf?id=J3wj55kK5t
-[6] Chris Deotte and Ronay Ak. 2025. Best Practices in Feature Engineering for Tabular Data With GPU Acceleration. Retrieved March 21, 2025 from [link](https://www.nvidia.com/gtc/session-catalog/?regcode=no-ncid&ncid=no-ncid&tab.catalogallsessionstab=16566177511100015Kus&search=ronay%20ak#/session/1731448128537001rimn)
+[1] Chris Deotte. 2025. Chris Deotte’s Kaggle Profile. https://www.kaggle.com/cdeotte Accessed: 2025-03-18. <br>
+[2] Chris Deotte et al. 2020. Feature Engineering for Recommender Systems. Retrieved March 18, 2025 from https://recsys.acm.org/recsys20/tutorials/ <br>
+[3] Chris Deotte et al . 2021. GPU Accelerated Boosted Trees and Deep Neural Networks for Better Recommender Systems. In RecSysChallenge ’21: Proceedings of the Recommender Systems Challenge 2021 (Amsterdam, Netherlands) (RecSysChallenge 2021). Association for Computing Machinery, New York, NY, USA, 7–14. https://doi.org/10.1145/3487572.3487605 <br>
+[4] Chris Deotte et al. 2023. Learn How to Create Features from Tabular Data and Accelerate your Data Science Pipeline. Retrieved March 18, 2025 from https://www.nvidia.com/en-us/on-demand/session/gtcspring23-dlit51195/ <br>
+[5] Chris Deotte et al . 2023. Winning Amazon KDD Cup’23. Retrieved March 18, 2025 from https://openreview.net/pdf?id=J3wj55kK5t <br>
+[6] Chris Deotte and Ronay Ak. 2025. Best Practices in Feature Engineering for Tabular Data With GPU Acceleration. Retrieved March 21, 2025 from [link](https://www.nvidia.com/gtc/session-catalog/?regcode=no-ncid&ncid=no-ncid&tab.catalogallsessionstab=16566177511100015Kus&search=ronay%20ak#/session/1731448128537001rimn) <br>
 [7] Jiwei Liu. 2021. Target Encoding with RAPIDS cuML: Do More with Your Categorical Data, [blog post](https://medium.com/rapids-ai/target-encoding-with-rapids-cuml-
-do-more-with-your-categorical-data-8c762c79e784), Accessed: 2025-03-18.
-[8] Julian McAuley et al . 2014. Amazon Review Dataset - Category Electronics. https://cseweb.ucsd.edu/~jmcauley/datasets/amazon/links.html, Accessed: 2025-03-18.
-[9] Julian McAuley, Christopher Targett, Qinfeng Shi, and Anton van den Hengel. 2015. Image-Based Recommendations on Styles and Substitutes. In Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval (Santiago, Chile). Association for Computing Machinery, New York, NY, USA, 43–52. https://doi.org/10.1145/2766462.2767755
-[10] Gabriel de Souza P. Moreira et al. 2021. Transformers with multi-modal features and post-fusion context for e-commerce session-based recommendation. https://arxiv.org/abs/2107.05124
-[11] NVIDIA. 2021. Merlin Framework. Retrieved June 7, 2022 from https://developer. nvidia.com/nvidia-merlin
-[12] RAPIDS Development Team. 2025. RAPIDS cuDF and cuML: GPU-Accelerated Data Science Libraries. https://rapids.ai/ Accessed: 2025-03-18.
-[13] Benedikt Schifferer et al. 2020. GPU Accelerated Feature Engineering and Training for Recommender Systems. In Proceedings of the Recommender Systems Challenge 2020 (Virtual Event, Brazil) (RecSysChallenge ’20). Association for Computing Machinery, New York, NY, USA, 16–23. https://doi.org/10.1145/3415959.
+do-more-with-your-categorical-data-8c762c79e784), Accessed: 2025-03-18. <br>
+[8] Julian McAuley et al . 2014. Amazon Review Dataset - Category Electronics. https://cseweb.ucsd.edu/~jmcauley/datasets/amazon/links.html, Accessed: 2025-03-18. <br>
+[9] Julian McAuley, Christopher Targett, Qinfeng Shi, and Anton van den Hengel. 2015. Image-Based Recommendations on Styles and Substitutes. In Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval (Santiago, Chile). Association for Computing Machinery, New York, NY, USA, 43–52. https://doi.org/10.1145/2766462.2767755 <br>
+[10] Gabriel de Souza P. Moreira et al. 2021. Transformers with multi-modal features and post-fusion context for e-commerce session-based recommendation. https://arxiv.org/abs/2107.05124 <br>
+[11] NVIDIA. 2021. Merlin Framework. Retrieved June 7, 2022 from https://developer. nvidia.com/nvidia-merlin <br>
+[12] RAPIDS Development Team. 2025. RAPIDS cuDF and cuML: GPU-Accelerated Data Science Libraries. https://rapids.ai/ Accessed: 2025-03-18. <br>
+[13] Benedikt Schifferer et al. 2020. GPU Accelerated Feature Engineering and Training for Recommender Systems. In Proceedings of the Recommender Systems Challenge 2020 (Virtual Event, Brazil) (RecSysChallenge ’20). Association for Computing Machinery, New York, NY, USA, 16–23. https://doi.org/10.1145/3415959. <br>
 [14] Benedikt Schifferer et al. 2021. Using Deep Learning to Win the Booking.com WSDMWebTour21 Challenge on Sequential Recommendations. https://www.bookingchallenge.com/. In Proceedings of the ACM WSDM Workshop on WebTourism (WSDM WebTour’21).

@@ -26,6 +26,7 @@ We will then introduce NVIDIA cuDF and cuML libraries [11] for accelerated end-t
 
 The tutorial will be 180 minutes long and is designed as a combination of theoretical lectures and practical exercises for the participants. The tutorial is outlined as follows:
 
+
 The tutorial is outlined as follow:
 - **Presentation (30 min)**
   - Section 1 - Experimentation Pipeline for Tabular datasets
@@ -48,7 +49,8 @@ The tutorial is outlined as follow:
 - **Wrap up and Q&A (20 min)**
 
 
-## PREVIOUS VERSIONS OF TUTORIAL
+## Previous Versions of Tutorial
+
 
 We have presented similar content as hands-on tutorial in three different events: ACM RecSys 2020 [12], GTC’23 Digital Spring [13] and GTC 2025 conferences [14]. Each tutorial was a big success, attracting a large audience of over 150 participants at each venue, and receiving a lot of positive feedback.
 
@@ -57,6 +59,7 @@ XGBoost models utilized to win. This workshop did not include instruction on how
 - **(2) GTC’23 Spring - Online** – For NVIDIA GTC’23 Digital Spring online, we adapted our previous RecSys2020 tutorial by shortening the feature engineering content and adding part 2 about training models and incorporating features.
 - **(3) GTC 2025** - In Person – For NVIDIA GTC’25, we presented an updated version of our GTC’23 tutorial. Now for KDD conference 2025, we propose adding more content to feature engineering and more content to model training.
 
+
 ## Tutors' Bios
 
 **Chris Deotte** is a Senior Data Scientist at NVIDIA, where he specializes in improving model performance. Chris earned his Ph.D. in Applied Mathematics with a specialization in Computational Science. Chris has competed in 90 international data science competitions and won 60+ medals. He is a quadruple Kaggle Grandmaster
@@ -64,10 +67,10 @@ XGBoost models utilized to win. This workshop did not include instruction on how
 
 **Ronay Ak** is a Senior Data Scientist at NVIDIA working on Information Retrieval for RAG applications. She received her Ph.D. in Energy and Power Systems Engineering discipline from CentraleSupelec in France. Ronay was part of the winning team for the Booking.com Challenge WSDM2021 [9] and the Coveo SIGIR e-Commerce Workshop Data Challenge 2021 [8]. She has authored 20+ technical publications published in internationally reputed conferences and journals and delivered numerous hands-on tutorials for academic and industry audience as an NVIDIA DLI certified instructor.
 
+
 ## Contributors
 
 **Benedikt Schifferer** is a manager of an applied research team at NVIDIA working on information retrieval and LLMs. Previously, he researched on Recommender Systems and was one of the engineers building the NVIDIA Merlin framework. Prior to his work at NVIDIA, he developed recommender systems for a German ecommerce company. He holds a Master of Science in Data Science degree from Columbia University, New York. Benedikt was part of the NVIDIA AI team that won the WSDM WebTour Workshop Challenge 2021 by Booking.com, ACM RecSys 2021, KDD Cup 2023 and 2024 competitions. 
-
 
 ## Equipments
 
@@ -94,6 +97,7 @@ Feature engineering is a critical step in building accurate machine learning mod
 ## Acknowledgements
 
 We would like to thank NVIDIA KGMON team and NVIDIA Deep Learning Institute (DLI)[4] team for their help and support in preparation of this tutorial.
+
 
 
 ## References

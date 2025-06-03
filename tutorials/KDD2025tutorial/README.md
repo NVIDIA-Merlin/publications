@@ -10,12 +10,12 @@
 
 ## Abstract
 
-Feature engineering remains a crucial technique for improving the performance of models trained on tabular data. Unlike computer vision and natural language processing, where deep learning models automatically extract hierarchical features from raw data, the most accurate tabular models, such as gradient-boosted decision trees, still benefit significantly from manually crafted features. This is demonstrated in Team NVIDIA’s many first-place data science competition victories [10] [2] [9] [3].
+Feature engineering remains a crucial technique for improving the performance of models trained on tabular data. Unlike computer vision and natural language processing, where deep learning models automatically extract hierarchical features from raw data, the most accurate tabular models, such as gradient boosted decision trees, still benefit significantly from manually crafted features. This is demonstrated in Team NVIDIA's many first-place data science competition victories [2], [3], [9], [10].
+  
+Fast experimentation in feature engineering is essential to quickly discover the most valuable features that improve model performance. In this tutorial, we use NVIDIA cuDF and cuML libraries to accelerate the experimentation pipeline on GPU, allowing us to search for and engineer new features more rapidly and build more accurate models faster.
 
-Fast experimentation in feature engineering is essential to quickly discover the most valuable features that improve model performance. In this tutorial, we use NVIDIA cuDF and cuML libraries [11] to accelerate the experimentation pipeline on GPU, allowing us to search for and engineer new features more rapidly and discover more accurate models faster. 
-
-First, participants will learn specific feature engineering techniques — normalization, binning, count encoding, and target encoding [5]. These techniques will be taught using the Amazon product review dataset [6] [7] that contains product reviews from May 1996 through July 2014. Specifically, we will use the electronic category of this dataset that contains 1,689,188 reviews. Next, they will train gradient-boosted decision tree models and support vector classification models with and without feature engineering.
-
+First, participants will be introduced to specific feature engineering techniques: normalization, binning, count encoding, and target encoding. These techniques will be taught using the Amazon product review dataset that contains product reviews from May 1996 through July 2014 [6][7]. Specifically, we will use the electronic category of this dataset that contains 1,689,188 reviews. Next, they will train gradient boosted decision tree models and support vector classification models with and without feature engineering.
+  
 Participants will learn how engineered features can significantly boost the accuracy of ML models, and by the end of the tutorial, they will gain practical techniques that can be immediately applied to their real-world use cases.
 
 ## Tutorial Outline
@@ -41,7 +41,7 @@ The tutorial is outlined as follow:
       - Learn and apply Target Encoding technique
       - Learn and apply Count Encoding technique
       - Learn and apply Binning technique
-      - Learn and appply Normalization technique
+      - Learn and apply Normalization technique
   - **Break (10 min)**
   - Part 2 - Train ML models on GPU
       - Train an XGBoost model on GPU
